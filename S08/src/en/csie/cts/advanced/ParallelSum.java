@@ -1,4 +1,4 @@
-package advanced;
+package en.csie.cts.advanced;
 
 public class ParallelSum extends Thread{
     private long[] array;
@@ -6,7 +6,7 @@ public class ParallelSum extends Thread{
     private long endIndex;
     public long sum = 0;
 
-    public ParallelSum(long endIndex, long startIndex, long[] array) {
+    public ParallelSum(long startIndex, long endIndex, long[] array) {
         this.endIndex = endIndex;
         this.startIndex = startIndex;
         this.array = array;

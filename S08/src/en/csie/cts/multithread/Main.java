@@ -1,4 +1,4 @@
-package en.csie.cts;
+package en.csie.cts.multithread;
 
 import java.util.Random;
 
